@@ -13,6 +13,6 @@ namespace Spice.Data
             : base(options)
         {
         }
-        public DbSet<Category> Categorie { get; set; }
+        public DbSet<Category> Category { get; set; }
     }
 }
